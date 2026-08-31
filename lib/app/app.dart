@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/theme/app_theme.dart';
-import '../features/home/presentation/screens/home_screen.dart';
+import '../features/navigation/presentation/main_shell.dart';
 
 class CrmApp extends StatelessWidget {
   const CrmApp({super.key});
@@ -12,7 +12,7 @@ class CrmApp extends StatelessWidget {
       title: 'CRM',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const HomeScreen(),
+      home: const MainShell(),
     );
   }
 }
